@@ -1,0 +1,60 @@
+/* Profile Card - Centered */
+.profile {
+  width: 100%;
+  max-width: 340px;
+  margin: 30px auto;
+  padding: 28px 20px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #e2e8f0;
+  border-top: 4px solid #4f46e5;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 14px;
+}
+
+.profile h1,
+.profile h2,
+.profile h3 {
+  color: #0f172a;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.profile p {
+  color: #64748b;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+/* Blue Action Buttons (Attendance, Marks, Results) */
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 24px auto;
+  flex-wrap: wrap;
+}
+
+.button button {
+  background-color: #1ee4ee;
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  padding: 14px 32px;
+  min-width: 145px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.25);
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.button button:hover {
+  background-color: #4338ca;
+  transform: translateY(-2px);
+}
